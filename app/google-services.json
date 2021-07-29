@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463401247046",
+    "project_id": "monash-fit5046",
+    "storage_bucket": "monash-fit5046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463401247046:android:05d283af81708c52a6c547",
+        "android_client_info": {
+          "package_name": "com.c0mm4nd.paindroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463401247046-ipa37eu9ac0vvbr53drea0s4qvin4dj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsyFykEhJeh5x8oJjVEOMoh42z6c9waZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463401247046-ipa37eu9ac0vvbr53drea0s4qvin4dj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

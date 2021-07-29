@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.c0mm4nd.paindroid.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="com.c0mm4nd.paindroid.ui.record.RecordFragment"
+        android:label="Pain Records"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.c0mm4nd.paindroid.ui.report.ReportFragment"
+        android:label="Pain Report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.c0mm4nd.paindroid.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+</navigation>
